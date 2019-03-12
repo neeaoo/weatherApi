@@ -1,0 +1,68 @@
+body{
+    padding: 5%;
+    text-shadow: 2px 2px 1px lightgray;
+    font-family: 'Dosis', sans-serif;
+    background-color: rgba(255,170,14,0.65);
+}
+
+#weatherContainer {
+    background-color: rgba(174, 180, 178, 0.5);
+    padding: 50px;
+    border-radius: 8px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#weatherContainer h1 {
+    margin: 5px;
+    font-size: 42px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#searchContainer {
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#searchContainer input {
+    width: 200px;
+}
+
+#searchContainer button {
+    background-color: rgb(1, 159, 198);
+    width: 75px;
+}
+
+.searchControl {
+    box-shadow: 2px 2px 5px black;
+    border: none;
+    border-bottom: 5px;
+    padding: 5px;
+}
+
+#weatherMain {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#weatherMain div {
+    display: inline-block;
+}
+
+#weatherDescriptionHeader {
+    font-size: 24px;
+    vertical-align: 50%;
+}
+
+#temperature {
+    font-size:  38px;
+    vertical-align: 25%;
+}
+
+.bottomDetails {
+    display: block;
+    font-size: 24px;
+    text-align: right;
+}
